@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: charles2410/devops-app:latest
+    build: .
     ports:
       - "5051:5000"
     environment:
